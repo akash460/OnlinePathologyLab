@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+img{
+	height:150px;
+	width:100%;
+}
+table{
+	width:600px;
+	box-shadow:-1px 12px 12px -6px rgba(0,0,0,0.5);
+}
+table,td,th{
+	padding:20px;
+	border:1px solid lightgray;
+	border-color:#006699;
+	border-collapse:collapse;
+	text-color:white;
+	text-align:center;
+
+}
+td{
+	font-size:27px;
+}
+th{
+	background-color:blue;
+	color:white;
+}
+tr:nth-child(odd):hover{{
+	background-color:lightblue;
+	color:white;
+	transform:scale(2);
+	transition:transform.300ms.ease-in;
+}
+
+
+
+
+
+
+	
